@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <link ref="stylesheet" href="./roboto_font.css" />
+  </head>
+  <body>
+    <script src="./main.js"></script>
+
+    <!-- date -->
+    <div id="date">March 22, friday</div>
+
+    <!-- location -->
+    <div id="location">Seoul</div>
+
+    <!-- weather icon  -->
+    <div id="weather-icon">
+      <img src="./SVG/sunny.svg" />
+    </div>
+
+    <!-- time -->
+    <div id="time">12:30</div>
+
+    <!-- temperature -->
+    <div id="temperature">
+      <span id="degree">20</span><span id="unit">&#8451;</span>
+    </div>
+
+    <!-- weather -->
+    <div id="weather">sunny</div>
+
+    <!-- more information -->
+    <div id="more-info">
+      <div id="saturday">
+        <div class="more-info-title">Sat</div>
+        <div class="more-info-img">
+          <img src="./SVG/cloudy.svg" />
+        </div>
+        <div id="sat-temperature" class="more-info-value">
+          <span id="sat-degree">15</span><span id="unit">&#8451;</span>
+        </div>
+        <div class="more-info-weather">cloudy</div>
+      </div>
+
+      <div id="sunday">
+        <div class="more-info-title">Sun</div>
+        <div class="more-info-img">
+          <img src="./SVG/rainy.svg" />
+        </div>
+        <div id="sun-temperature" class="more-info-value">
+          <span id="sun-degree">15</span><span id="unit">&#8451;</span>
+        </div>
+        <div class="more-info-weather">rainy</div>
+      </div>
+
+      <div id="monday">
+        <div class="more-info-title">Mon</div>
+        <div class="more-info-img">
+          <img src="./SVG/windy.svg" />
+        </div>
+        <div id="mon-temperature" class="more-info-value">
+          <span id="mon-degree">15</span><span id="unit">&#8451;</span>
+        </div>
+        <div class="more-info-weather">windy</div>
+      </div>
+
+      <div id="tuesday">
+        <div class="more-info-title">Tue</div>
+        <div class="more-info-img">
+          <img src="./SVG/snowy.svg" />
+        </div>
+        <div id="tue-temperature" class="more-info-value">
+          <span id="tue-degree">15</span><span id="unit">&#8451;</span>
+        </div>
+        <div class="more-info-weather">snowy</div>
+      </div>
+    </div>
+
+    <!-- button -->
+    <button id="button" onclick="update()">Update</button>
+  </body>
+</html>
