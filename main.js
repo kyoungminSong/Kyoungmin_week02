@@ -5,6 +5,7 @@ function update() {
   const num = parseInt(Math.random() * cities.length);
 
   document.getElementById("location").innerHTML = cities[num];
+
   document.getElementById("degree").innerHTML = parseInt(Math.random() * 20);
 
   document.getElementById("sat-degree").innerHTML = parseInt(
